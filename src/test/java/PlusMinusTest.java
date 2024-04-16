@@ -15,7 +15,7 @@ public class PlusMinusTest extends StandardOutTestTemplate {
         Integer[] intArray = {-4,3,-9,0,4,1};
         List<Integer> intList = Arrays.asList(intArray);
         PlusMinus.plusMinus(intList);
-        Assert.assertEquals(expectedResult, outputStream.toString());
+        Assert.assertEquals(expectedResult, this.outputStream.toString());
     }
 
     @Test
@@ -27,7 +27,7 @@ public class PlusMinusTest extends StandardOutTestTemplate {
         Integer[] intArray = {1,2,3,-1,-2,-3,0,0};
         List<Integer> intList = Arrays.asList(intArray);
         PlusMinus.plusMinus(intList);
-        Assert.assertEquals(expectedResult, outputStream.toString());
+        Assert.assertEquals(expectedResult, this.outputStream.toString());
     }
 
 }
