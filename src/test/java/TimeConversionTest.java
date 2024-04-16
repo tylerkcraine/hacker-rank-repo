@@ -21,6 +21,6 @@ public class TimeConversionTest {
     public void TestThree() {
         String inputString = "12:40:22PM";
         String result = TimeConversion.timeConversion(inputString);
-        Assert.assertEquals("12:40:22PM", result);
+        Assert.assertEquals("12:40:22", result);
     }
 }
